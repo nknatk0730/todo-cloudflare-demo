@@ -3,7 +3,7 @@ import { TodoTable } from "./todo-table";
 import { Todo } from "@/types/todo";
 import { TodoForm } from "./components/todo-form";
 
-// export const runtime = 'edge';
+export const runtime = 'edge';
 
 export default async function Home() {
   const todos: Todo[] = await getTodos();
